@@ -1,0 +1,154 @@
+/* COMMON */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.relative{
+    position: relative;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* NAV */
+.top-nav{
+    padding: 2% 5%;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+
+nav .burger-menu{
+    font-size: 25px;
+}
+header ul{
+    list-style-type: none;
+}
+header ul li{
+    display: inline-block;
+    padding: 0 4px;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    line-height: 24px;
+}
+.lenguage li{
+    padding: 0 2%;
+}
+.lenguage li a{
+    border-right: 1px solid black;
+    padding: 0 9px;
+    font-size: 12px;
+}
+.lenguage li:last-child a{
+    border-right: none;
+}
+/* JUMBOTRON */
+.jumbotron{
+    height: 500px;
+    background-image: url(../img/hero-bg.jpg);
+    position: relative;
+}
+.slogan{
+    text-align: center;
+    position: absolute;
+    color: white;
+    width: 70%;
+}
+.slogan div{
+    display: inline-block;
+}
+.slogan *{
+    padding-bottom: 3%;
+}
+h1{
+    font-size: 53px;
+    padding-bottom: 5%;
+}
+/* BEST SELL */
+.best-sell div{
+    background-color: #fafafa;
+    margin: 5% 0;
+    border: 25px solid white;
+    text-align: center;
+}
+
+.best-sell div h3{
+    padding-top: 10%;
+    font-size: 30px;
+}
+.best-sell div p, .best-sell div a{
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.best-sell div *{
+    padding-bottom: 2%;
+}
+
+/* MAIN */
+.banner{
+    background-image: url(../img/HelbizBanner.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: 20% 100%;
+}
+.wrap-banner{
+    height: 700px;
+    position: relative;
+}
+.wrap-banner img{
+    max-width: 450px;
+    height: auto;
+    padding-top: 15%;
+}
+.banner .container{
+    position: relative;
+    top: 135%;
+}
+.wrap-banner .relative{
+    height: 200px;
+}
+
+@media all and (min-width: 768px)
+and (max-width: 991px){
+    .banner .container{
+        padding-top: 0%;
+    }
+}
+@media all and (max-width: 767px){
+    .banner .container{
+        padding-top: 30%;
+    }
+}
+/* hebizgo bottom */
+.hebizgo-bottom [class*="-banner"]{
+    background-size: cover;
+    height: 400px;
+    margin-top: 5%;
+    border: 15px solid white;
+}
+.hebizgo-banner{
+    background-image: url(../img/ScooterHelbiz-2400.jpg);
+
+}
+.app-banner{
+    background-color: #405568;
+}
+.app-banner img{
+    position: absolute;
+    bottom: 0%;
+}
+.find-us-banner{
+    background-image: url(../img/cities-1500.jpg);
+
+}
