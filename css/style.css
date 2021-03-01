@@ -82,16 +82,16 @@ h1{
     text-align: center;
 }
 
-.best-sell div h3{
+.best-sell div h3, .style .hebizgo h3{
     padding-top: 10%;
     font-size: 30px;
 }
-.best-sell div p, .best-sell div a{
+.best-sell div p, .best-sell div a, .style .hebizgo a{
     font-weight: 600;
     text-decoration: none;
 }
 
-.best-sell div *{
+.best-sell div*{
     padding-bottom: 2%;
 }
 
@@ -133,22 +133,27 @@ and (max-width: 991px){
 /* hebizgo bottom */
 .hebizgo-bottom [class*="-banner"]{
     background-size: cover;
-    height: 400px;
-    margin-top: 5%;
     border: 15px solid white;
+    margin-top: 25%;
 }
 .hebizgo-banner{
     background-image: url(../img/ScooterHelbiz-2400.jpg);
-
+}
+.style .hebizgo{
+    text-align: center;
+    color: white;
+    padding: 10%;
+}
+.style-bottom{
+    text-align: center;
+    color: white;
 }
 .app-banner{
     background-color: #405568;
+    vertical-align: bottom;
 }
-.app-banner img{
-    position: absolute;
-    bottom: 0%;
-}
-.find-us-banner{
-    background-image: url(../img/cities-1500.jpg);
-
+.find-us-banner img{
+   padding: 10%;
+   background-image: url(../img/cities-1500.jpg);
+   background-size: cover;
 }
